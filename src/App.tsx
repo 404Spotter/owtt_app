@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import Home from './pages/Home';
 import GlobePage from './pages/LiveGlobe';
-import BlogPage from './pages/Blog';
+import BlogPage from './pages/BlogPage';
 import ModeToggle from './components/ModeToggle';
 
 export default function App() {
