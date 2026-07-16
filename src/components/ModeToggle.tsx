@@ -16,7 +16,12 @@ export default function ModeToggle() {
             onClick={() => setMode('outdoor')}
         > Outdoor </button>
         
-    {/* ... identical Indoor button ... */}
+    <button
+            type="button"
+            className={`mode-option${mode === 'indoor' ? ' is-active' : ''}`}
+            aria-pressed={mode === 'indoor'}
+            onClick={() => setMode('indoor')}
+    > Indoor </button>
     </div>
     );
 }
